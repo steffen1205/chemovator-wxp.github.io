@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+// primeng
+import { ButtonModule } from 'primeng/button';
+
+// own components
 import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
@@ -12,7 +18,9 @@ import { DialogComponent } from './components/dialog/dialog.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    ButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,42 @@
+// .landing-page {
+//   display: flex;
+//   justify-content: space-between;
+//   height: 90vh;
+
+//   &-title {
+//     padding: 6em;
+//   }
+
+// }
+
+.services {
+  background-color: #020617;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-block: 1rem;
+
+  width: 70%;
+  box-sizing: content-box;
+  margin: auto;
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span,
+    h3 {
+      padding: 1em;
+    }
+  }
+}

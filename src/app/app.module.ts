@@ -10,11 +10,13 @@ import { ButtonModule } from 'primeng/button';
 
 // own components
 import { DialogComponent } from './components/dialog/dialog.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogComponent
+    DialogComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
